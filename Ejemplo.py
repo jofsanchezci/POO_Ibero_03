@@ -17,3 +17,9 @@ print('-------Concatenar str--------------')
 var1='Hola'
 var2=' Mundo'
 print(var1 + var2)
+
+print('-------Funciones--------------')
+def sumar(x,y):
+	return x+y
+
+print('El resultado de la función es: ', sumar(1,2))
